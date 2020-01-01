@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.clantable {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table.clantable tr td {
+    background-color: #aaa;
+}
+
+table.clantable tr:first-child td:nth-child(3n+1) {
+    padding: 10px 20px;
+    vertical-align: top;
+}
+
+table.clantable tr:first-child td:first-child {
+    text-align: center;
+}
+
+table.clantable tr:first-child td:last-child {
+    width: 20em;
+}
+
+table.clantable tr:first-child td:nth-child(2) {
+    color: #e3cfb5;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000, -1px -1px 0px #000 ;
+    padding-top: 5px;
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 50px;
+    vertical-align: bottom;
+}
+
+table.clantable tr:first-child td:nth-child(3) {
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 5px;
+    white-space: nowrap;
+    text-align: right;
+    padding-left: 50px;
+    vertical-align: bottom;
+}
+
+table.clantable tr:nth-child(1n+2) td {
+    border-bottom: solid #000 1px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    padding-top: 5px;
+    white-space: nowrap;
+}
+
+table.clantable tr:nth-child(1n+2) td:first-child {
+    text-align: left;
+    padding-right: 50px;
+}
+
+table.clantable tr:nth-child(1n+2) td:last-child {
+    text-align: right;
+    padding-left: 50px;
+}
+
+table.clantable tr:first-child > td:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+table.clantable tr:first-child > td:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+table.clantable .clanlevel {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #000;
+    padding: 3px;
+}
