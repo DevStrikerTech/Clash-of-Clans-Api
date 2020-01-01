@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <?php
-    $clantag = "<CLANTAG>";
+    $clantag = "<CLANTAG HERE>";
 
-    $token = "<APITOKEN>";
+    $token = "<APITOKEN HERE>";
 
     $url = "https://api.clashofclans.com/v1/clans/" . urlencode($clantag);
 
